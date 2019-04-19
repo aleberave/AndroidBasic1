@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void changeTextAndTextSize() {
-        textView.setTextSize(40);
         String text = getString(R.string.weather);
         textView.setText(text);
     }
